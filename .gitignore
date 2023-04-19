@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Code Workspace
+whatsapp-api-audio.code-workspace

@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-api-audio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatex333/whatsapp-api-audio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatex333/whatsapp-api-audio/issues"
+  },
+  "homepage": "https://github.com/renatex333/whatsapp-api-audio#readme",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.19.5"
+  }
+}
