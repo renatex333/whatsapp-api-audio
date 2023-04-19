@@ -4,3 +4,6 @@ Para rodar, basta executar o seguinte comando no terminal (no diretório do proj
 
         npm start
 
+## Referências
+
+[WhatsApp API / Por: pedroslopez](https://github.com/pedroslopez/whatsapp-web.js/tree/main)
