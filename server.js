@@ -27,9 +27,9 @@ client.on('message', async msg => {
         msg.reply('pong');
     } else if (msg.hasMedia) {
         const attachmentData = await msg.downloadMedia();
-        var fileextension = attachmentData.mimetype.split(';')[0].split('/')[1];
+        var fileExtension = attachmentData.mimetype.split(';')[0].split('/')[1];
         var buff = new Buffer.from(attachmentData.data, 'base64');
-        fs.writeFileSync(`request-audio-${fileCounter}.${fileextension}`, buff);
+        fs.writeFileSync(`request-audio-${fileCounter}.${fileExtension}`, buff);
         fileCounter++;
         // Cria função que faz requisição para API do Whisper
         msg.reply(`
