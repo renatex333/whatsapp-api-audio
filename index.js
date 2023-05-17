@@ -2,6 +2,8 @@ const qrcode = require('qrcode-terminal');
 
 const fs = require('fs');
 
+const http = require('http');
+
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const client = new Client({
     authStrategy: new LocalAuth()
@@ -48,4 +50,12 @@ client.on('message', async msg => {
         `);
     }
 });
+
+// Pra boi dormir
+
+http.createServer(function (req, res) {
+    res.writeHead(200, {'Content-Type': 'text/plain'});
+    res.write('Hello World!');
+    res.end();
+  }).listen(8080);
  
